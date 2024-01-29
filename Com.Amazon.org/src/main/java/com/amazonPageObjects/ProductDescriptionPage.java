@@ -1,4 +1,4 @@
-package com.amazonPageObjects;
+ package com.amazonPageObjects;
 
 import org.openqa.selenium.WebDriver;
 

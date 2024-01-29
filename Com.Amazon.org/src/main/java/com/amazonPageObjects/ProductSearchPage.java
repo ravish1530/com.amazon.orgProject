@@ -37,7 +37,7 @@ public class ProductSearchPage extends BaseClass {
 	})
 	List<WebElement> prices;
 	
-	@FindBy(xpath="//div[text()=\"OPPO Reno11 5G (Wave Green, 256 GB)\"]") WebElement product;
+	@FindBy(xpath="//div[normalize-space()='Apple iPhone 15 (Blue, 128 GB)']") WebElement product;
 	
 	public ProductSearchPage(WebDriver getDriver) {
 

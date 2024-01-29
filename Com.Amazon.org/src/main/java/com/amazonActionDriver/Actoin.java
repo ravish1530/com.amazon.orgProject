@@ -38,6 +38,7 @@ public class Actoin extends BaseClass implements ActionInterface {
 	@Override
 	public void scrollByVisibilityOfElement(WebDriver driver, WebElement ele) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
 		js.executeScript("arguments[0].scrollIntoView();", ele);
 		
 

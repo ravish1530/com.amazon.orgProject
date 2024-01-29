@@ -33,7 +33,7 @@ Actoin action=new Actoin();
 //		action.fluentWait(getDriver(), Email, 10);
 //		action.type(Email, email);
 //		action.type(password, pwd);
-		
+//		
 	}
 	
 	public void clickonContinuebtn() {
@@ -41,5 +41,7 @@ Actoin action=new Actoin();
 		action.fluentWait(getDriver(), Continuebtn, 10);
 		action.JSClick(getDriver(), Continuebtn);
 		action.JSClick(getDriver(), Acceptbtn);
+		
+		
 	}
 }
